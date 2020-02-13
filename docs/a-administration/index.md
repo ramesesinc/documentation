@@ -4,6 +4,7 @@ Administration
 Introduction
 ------------
 
+![alt text][logo]
 
 
 
@@ -25,4 +26,7 @@ Transaction
 
 Management
 ----------
+
+
+[logo]: ./images/etracs.png
 
