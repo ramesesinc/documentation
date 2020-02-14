@@ -1,6 +1,5 @@
-# Overview of ETRACS
+Overview of ETRACS
 ====================
-
 
 ETRACS (Enhanced Tax Revenue Assessment and Collection System) is a software system designed
 and developed by Rameses Systems Inc. (Rameses). The primary goal of the system is to automate
