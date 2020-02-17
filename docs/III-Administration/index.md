@@ -93,19 +93,18 @@ managing.
 
 - ### <b>Editing LGU information</b>
 <br />
+
 <ol>
-	<li>Go to <b>Administration</b> in the home screen.</li>
+	<li>Go to <b>Administration</b> in the home screen. </li>
+
+![alt text][admin] 
 	<br />
-
-	![alt text][admin]
-
 	<br />
-
 	<li>Click <b>Organization</b>. If this was for a city setup, you will be able to see the city and
-barangay.</li>
+barangay. </li>
 	<br />
 
-	![alt text][organization]
+![alt text][organization] 
 </ol>
 
 <br />
@@ -124,25 +123,24 @@ If the setup was for City, click on <b>City</b> under <b>Organization</b> to ope
 - ### <b>Adding barangays</b>
 
 <ol>
-	<li>To view the barangay listing, click Barangay under Organization.</li>
-	
-![alt text][barangay]
-	<br />
-	<br />
+	<li>To view the barangay listing, click Barangay under Organization. </li>
+
+![alt text][barangay] 
+<br />
+<br />
 	<li>To edit the barangay, highlight and double click on the specific barangay and click <b>edit</b> ![alt text][edit] to edit the necessary information. Click <b>save</b> ![alt text][save] when completed. </li>
-	<br />
-![alt text][barangay2] <br />
+
+![alt text][barangay2]
 	<br />
 	<br />
 	<li>To add new barangay, click <b>new</b> ![alt text][new] under <b>Barangay</b> tab. Fill up the necessary information. Click <b>save</b> ![alt text][save] when completed.</li>
-	<br />
-![alt text][barangay3] <br />
-	<br />
-	<br />
-	<li>To delete barangay, select/highlight the specific barangay and click <b>delete</b>. A confirmation dialog box will pop-up, click <b>Yes</b> to proceed.</li>
-	<br />
-![alt text][barangay4]
 
+![alt text][barangay3]
+	<br />
+	<br />
+	<li>To delete barangay, select/highlight the specific barangay and click <b>delete</b>. A confirmation dialog box will pop-up, click <b>Yes</b> to proceed. </li>
+
+![alt text][barangay4] 
 </ol>
 
 
