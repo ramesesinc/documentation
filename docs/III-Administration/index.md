@@ -5,7 +5,7 @@
 
 
 
-Overview
+<b>Overview</b>
 ===
 
 Security is of vital importance in making any system trustworthy. The proper administration
@@ -25,13 +25,13 @@ execute system functions. It is implemented using a Role-Base model. Built-in ro
 such as COLLECTOR are already created with the corresponding permissions defined.
 
 ETRACS Administration is implemented using the following, namely: Roles, Users,
-Organization, User Groups, Terminals and Queue System. <br />
+Organization, User Groups, Terminals and Queue System.
+
 <br />
 <br />
+<br />
 
-
-
-Terminal
+<b>Terminal</b>
 ===
 
 Terminal refers to the personal computer that will be used to connect to ETRACS. As long as
@@ -39,13 +39,15 @@ there is connectivity, whether through a public internet or through VPN, an ETRA
 can connect to the server. Because of this, only the registered clients should be allowed to
 access the server. This is done by assigning keys to the client and the client acknowledges by
 submitting their MAC address as this is the only way to identify the machine. Although this is
-not hack-proof, this is just an additional layer of security in the system. <br />
+not hack-proof, this is just an additional layer of security in the system.
+
 <br />
 <br />
+<br />
 
 
 
-Roles, User Groups and Permissions
+<b>Roles, User Groups and Permissions</b>
 ===
 
 Before a user can do some transactions in the system, they need to be authorized to
@@ -57,13 +59,15 @@ To avoid conflicting roles, roles are separated by domain. Domain refers to a bu
 area or a functional group like TREASURY or BPLO. The combination of domain and role is
 termed as a User Group. Users are bound, or become members of user groups. A user group
 can be limited further by organization, which means when a user logs in to an organization,
-the roles for that organization will apply. <br />
+the roles for that organization will apply.
+
 <br />
 <br />
+<br />
 
 
 
-Organization
+<b>Organization</b>
 ===
 
 ETRACS is not a stand-alone system. In fact, the idea is to allow ETRACS to be networkable to
@@ -76,18 +80,18 @@ specified, the root organization will be used. <br />
 <br />
 
 ![alt text][org]
+
 <br />
 <br />
+<br />
 
-
-
-Updating Organization
+<b>Updating Organization</b>
 ---
 
 During installation the type of LGU was specified. Different LGU types have different ways of
 managing.
 
-### - <b>Editing LGU information</b>
+- ### <b>Editing LGU information</b>
 <br />
 <ol>
 	<li>Go to <b>Administration</b> in the home screen.</li>
@@ -104,41 +108,40 @@ barangay.</li>
 	![alt text][organization]
 </ol>
 
-
-
 <br />
 <br />
+<br />
 
-Managing City Organization
+<b>Managing City Organization</b>
 ---
 
-### - <b>Editing City Information</b>
+- ### <b>Editing City Information</b>
 
-If the setup was for City, click on <b>City</b> under <b>Organization</b> to open the screen below. Click the <b>edit</b> button ![alt text][edit] to edit the necessary information. Click the save 	button ![alt text][save] when completed.
+If the setup was for City, click on <b>City</b> under <b>Organization</b> to open the screen below. Click <b>edit</b> ![alt text][edit] to edit the necessary information. Click save ![alt text][save] when completed.
 
 ![alt text][city]
 
-### - <b>Adding barangays</b>
+- ### <b>Adding barangays</b>
 
 <ol>
 	<li>To view the barangay listing, click Barangay under Organization.</li>
-
+	
 ![alt text][barangay]
 	<br />
 	<br />
-	<li>To edit the barangay, highlight and double click on the specific barangay and click the <b>edit</b> button ![alt text][edit] to edit the necessary information. Click the <b>save</b> button ![alt text][save] when completed. </li>
+	<li>To edit the barangay, highlight and double click on the specific barangay and click <b>edit</b> ![alt text][edit] to edit the necessary information. Click <b>save</b> ![alt text][save] when completed. </li>
 	<br />
-	![alt text][barangay2] <br />
-	<br />
-	<br />
-	<li>To add new barangay, click the <b>new</b> button ![alt text][edit] under <b>Barangay</b> tab. Fill up the necessary information. Click the <b>save</b> button ![alt text][save] when completed.</li>
-	<br />
-	![alt text][barangay3] <br />
+![alt text][barangay2] <br />
 	<br />
 	<br />
-	<li>To delete barangay, select/highlight the specific barangay and click the <b>delete</b> button . A confirmation dialog box will pop-up, click <b>Yes</b> to proceed.</li>
+	<li>To add new barangay, click <b>new</b> ![alt text][new] under <b>Barangay</b> tab. Fill up the necessary information. Click <b>save</b> ![alt text][save] when completed.</li>
 	<br />
-	![alt text][barangay4]
+![alt text][barangay3] <br />
+	<br />
+	<br />
+	<li>To delete barangay, select/highlight the specific barangay and click <b>delete</b>. A confirmation dialog box will pop-up, click <b>Yes</b> to proceed.</li>
+	<br />
+![alt text][barangay4]
 
 </ol>
 
@@ -146,10 +149,65 @@ If the setup was for City, click on <b>City</b> under <b>Organization</b> to ope
 
 <br />
 <br />
+<br />
 
-Managing Province Organization	
+<b>Managing Province Organization</b>
 ---
 
+- ### <b>Editing Province Information</b>
+	
+If the province setup was chosen, click on <b>Province</b> under <b>Organization</b>. Click <b>edit</b> ![alt text][edit] to edit the necessary information. Click <b>save</b> ![alt text][save] when completed.
+<br />
+<br />
+
+- ### <b>Managing Municipality</b>
+
+Click Municipality under <b>Province</b> to view the municipality list. Click <b>edit</b> ![alt text][edit] to edit the municipality’s information. Click <b>new</b> ![alt text][new] to add municipality and fill up the necessary information. Click <b>save</b> ![alt text][save] when completed.
+<br />
+<br />
+
+- ### <b>Editing Barangays</b>
+
+Add first the municipality before adding barangays. That is because barangays are associated with the municipality. Just follow the steps on adding municipality above. After adding municipality, click <b>new</b> ![alt text][new] to add barangay. Fill up the necessary informations. Specify the municipality to which the barangay belongs. Click <b>save</b> ![alt text][save] when completed.
+
+<br />
+<br />
+<br />
+
+<b>Managing Municipality Organization</b>
+---
+
+- ### <b>Editing Municipality and Province</b>
+
+If the selected setup is for municipality, the root org would be municipality. Go to <b>organization</b> and edit <b>Municipality</b>. Edit the necessary information under Municipality Information tab as well as the Province Information tab.
+
+- ### <b>Adding Barangays</b>
+
+Similar to the procedure in the preceding sections, edit also the barangay for the municipality.
+
+<br />
+<br />
+<br />
+
+<b>Administrator Account</b>
+===
+
+The SystemAdministrator’s account is the only account recognized by the system right out of the box. Only the system administrator at this time can add the users and define roles.
+
+<br />
+
+- ### <b>Terminal Registration</b>
+
+<ol>
+	<li>Run the client.</li>
+
+![alt text][client]
+
+	
+
+
+
+</ol>
 
 
 
@@ -169,8 +227,10 @@ Managing Province Organization
 [organization]: ./images/3-c.png
 [edit]: ./images/edit.png
 [save]: ./images/save.png
+[new]: ./images/new.png
 [city]: ./images/3-d.png
 [barangay]: ./images/3-e.png
 [barangay2]: ./images/3-f.png
 [barangay3]: ./images/3-g.png
 [barangay4]: ./images/3-h.png
+[client]: ./images/3-i.png
