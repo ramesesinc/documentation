@@ -1,3 +1,10 @@
+<style type="text/css">
+	ol{ list-style-type: decimal !important }	
+
+</style>
+
+
+
 Overview
 ===
 
@@ -23,6 +30,7 @@ Organization, User Groups, Terminals and Queue System. <br />
 <br />
 
 
+
 Terminal
 ===
 
@@ -34,6 +42,7 @@ submitting their MAC address as this is the only way to identify the machine. Al
 not hack-proof, this is just an additional layer of security in the system. <br />
 <br />
 <br />
+
 
 
 Roles, User Groups and Permissions
@@ -53,6 +62,7 @@ the roles for that organization will apply. <br />
 <br />
 
 
+
 Organization
 ===
 
@@ -65,8 +75,10 @@ name must be specified in the client code in the login screen. (See screen below
 specified, the root organization will be used. <br />
 <br />
 
-![alt text][org] <br />
+![alt text][org]
 <br />
+<br />
+
 
 
 Updating Organization
@@ -75,12 +87,68 @@ Updating Organization
 During installation the type of LGU was specified. Different LGU types have different ways of
 managing.
 
-- <b>Editing LGU information</b>
-	1. Go to <b>Administration</b> in the home screen.
+### - <b>Editing LGU information</b>
+<br />
+<ol>
+	<li>Go to <b>Administration</b> in the home screen.</li>
+	<br />
 
-		![alt text][admin]
+	![alt text][admin]
 
-	2. 
+	<br />
+
+	<li>Click <b>Organization</b>. If this was for a city setup, you will be able to see the city and
+barangay.</li>
+	<br />
+
+	![alt text][organization]
+</ol>
+
+
+
+<br />
+<br />
+
+Managing City Organization
+---
+
+### - <b>Editing City Information</b>
+
+If the setup was for City, click on <b>City</b> under <b>Organization</b> to open the screen below. Click the <b>edit</b> button ![alt text][edit] to edit the necessary information. Click the save 	button ![alt text][save] when completed.
+
+![alt text][city]
+
+### - <b>Adding barangays</b>
+
+<ol>
+	<li>To view the barangay listing, click Barangay under Organization.</li>
+
+![alt text][barangay]
+	<br />
+	<br />
+	<li>To edit the barangay, highlight and double click on the specific barangay and click the <b>edit</b> button ![alt text][edit] to edit the necessary information. Click the <b>save</b> button ![alt text][save] when completed. </li>
+	<br />
+	![alt text][barangay2] <br />
+	<br />
+	<br />
+	<li>To add new barangay, click the <b>new</b> button ![alt text][edit] under <b>Barangay</b> tab. Fill up the necessary information. Click the <b>save</b> button ![alt text][save] when completed.</li>
+	<br />
+	![alt text][barangay3] <br />
+	<br />
+	<br />
+	<li>To delete barangay, select/highlight the specific barangay and click the <b>delete</b> button . A confirmation dialog box will pop-up, click <b>Yes</b> to proceed.</li>
+	<br />
+	![alt text][barangay4]
+
+</ol>
+
+
+
+<br />
+<br />
+
+Managing Province Organization	
+---
 
 
 
@@ -98,3 +166,11 @@ managing.
 
 [org]: ./images/3-a.png
 [admin]: ./images/3-b.png
+[organization]: ./images/3-c.png
+[edit]: ./images/edit.png
+[save]: ./images/save.png
+[city]: ./images/3-d.png
+[barangay]: ./images/3-e.png
+[barangay2]: ./images/3-f.png
+[barangay3]: ./images/3-g.png
+[barangay4]: ./images/3-h.png
