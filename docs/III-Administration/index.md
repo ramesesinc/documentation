@@ -194,18 +194,243 @@ The SystemAdministrator’s account is the only account recognized by the system
 
 <br />
 
-- ### <b>Terminal Registration</b>
+<b>Terminal Registration</b>
+---
 
+<br />
 <ol>
-	<li>Run the client.</li>
+
+<li>Run the client.</li>
 
 ![alt text][client]
+<br />
+<br />
+	<li>Since this terminal is not yet registered, the system will require you to register a
+terminal. Choose <b>Register new terminal</b> and click <b>Next</b>.</li>
 
-	
+![alt text][newterminal]
+<br />
+<br />
+	<li>In the Terminal Key, enter <b>T001</b> and in the “Registered By:”, enter ADMIN. If 	successful, the login screen will appear.</li>
 
+![alt text][registered]
 
+<i>(Note: T001, T002, T003 are the system default terminal keys.</i>
 
 </ol>
+
+<br />
+<br />
+
+<b>Logging-In</b>
+---
+
+<br />
+In the login screen, enter the following:
+<br />
+Username: ADMIN
+Password: !1234#
+<br />
+<br />
+<i>(Note: !1234# is the system default temporary password for new user account.)</i>
+<br />
+<br />
+If credentials are correct, the system will prompt you to change your password (See image below). Specify a password that is hard to guess. If you forget your password, it will be reset in the backend.
+<br />
+<br />
+
+![alt text][password]
+<br />
+<br />
+
+<b>Managing Terminals</b>
+---
+
+<br />
+Terminal keys are randomly–generated keys. This is given to the computer during terminal registration. The terminal key is associated against the network interface cards MAC address after successful registration. This association will never change unless the NIC is replaced or damaged or the terminal key is deleted from the database. Before registration the Mac Address next to the terminal key is blank. After successful registration, the Mac Address should appear which means this terminal key cannot be used anymore. If you want to replace the mac address, click on Unassign and give the terminal key to another client for registration.
+<br />
+<br />
+
+![alt text][confirmpass]
+
+<br />
+<br />
+
+- #### <b>Generate Keys</b>
+<br />
+<ol>
+	<li>Go to Administration> Terminals > Click <b>Generate Keys</b></li>
+	<br />
+
+	![alt text][generate]
+	<br />
+	<br />
+
+	<li>Enter the no. of terminal keys to generate, then click <b>OK</b>.</li>
+	<br />
+
+	![alt text][terminalkeys]
+	<br />
+	<br />
+
+	<li>Copy the unassigned key/s and distribute to new users to be used on terminal registration.</li>
+	<br />
+
+	![alt text][terminalreg]
+</ol>
+
+<br />
+<br />
+
+<b>Managing Users</b>
+---
+
+<br />
+A <b>user</b> is someone who is registered in the system. A registered user can then be referenced in any transactions and processes. To be able to access the system a user must be authenticated and identified first by the system. To achieve this, users must have a username and password. The username might be visible but the password must be private to the user. Only the admin can create users.
+<br />
+<br />
+<br />
+
+- ### <b>Creating User Accounts</b>
+<br />
+	
+	1. From the homescreen, click <b>Administration</b>.
+	<br />
+
+	![alt text][administration]
+	<br />
+	<br />
+
+	2. Click <b>Manage Users</b>.
+	<br />
+
+	![alt text][manageusers]
+	<br />
+	<br />
+
+	3. On the Manage Users tab, click <b>new</b>  ![alt text][new]
+	<br />
+
+	![alt text][managenew]
+	<br />
+	<br />
+
+	4. The fields that are marked with * are required fields and must be filled up. The user txn code is a special code that is used in some parts of the system. This is a short text, preferably a user’s initial.  If specified, this will appear as prefixes in some transactions so the transaction will know it is prepared by that user. For example, in collection remittance, a numbering system that includes the user name is great because they can immediately pinpoint that remittance is created by that user. Username must be unique so duplicates cannot occur. Click <b>Save</b> once completed.
+	<br />
+
+	![alt text][newuser]
+
+	<br />
+	<br />
+	<br />
+
+- ### <b>Assigning Roles</b>
+	<br />
+
+	1. To add a role for the user, open the user record as above and click <b>Edit</b>:
+	<br />
+
+	![alt text][edituser]
+	<br />
+	<br />
+
+	2. Click <b>Roles and Permissions</b> and click <b>Add</b> (lower left corner), prompting you to add a role.
+	<br />
+
+	![alt text][addrole]
+	<br />
+	<br />
+
+	3. Refer to the image below:
+	<br />
+
+	- <b>Username</b> - refers to the name of the member.
+	- <b>User Group</b> - A combination of domain and role. Tip: To speed up lookup, type the domain in the User group textbox then press enter.
+	- <b>Security Group</b> - If specified, only the allowed permissions will be accessible.
+	- <b>Org Name</b>	 - If specified, this authorization will only be applicable for the organization specified.
+	<br />
+
+	![alt text][adduser]
+	<br />
+	
+	On the <b>User Group</b> field, click lookup ![alt text][lookup] to show you the list of usergroups.
+	<br />
+
+	4. Select a specific group from the list and click <b>OK</b> from the Lookup Usergroup screen.
+
+	Click <b>OK</b> again from the <b>‘Add User Group’</b> screen.
+	<br />
+
+	![alt text][usergroup]
+	<br />
+	<br />
+
+	5. To add more roles, click <b>Add</b> and follow the steps above. To delete a role, click <b>Remove</b> and click <b>Yes</b> when prompted. Once finished, click <b>Save</b>.
+	<br />
+
+	![alt text][remove]
+	<br />
+	<br />
+
+	6. After adding roles, click ![alt text][close] to exit.
+	<br />
+
+	![alt text][close2]
+	<br />
+	<br />
+
+	- #### <b>Resetting Password</b>
+	In case a user forgets their password, the admin is the only one who can reset it. ETRACS does not have the capability to recover passwords because password encryption cannot be reversed. To do this, login as admin and go to the Administration> Manage Users> Open the user’s record> Click <b>Reset Password</b>. Specify a password and let the user know the password you specified. Ask the user to login using their username and password specified. If successful, the system will prompt the user to provide another password.
+	<br />
+
+	![alt text][resetpass]
+	<br />
+	<br />
+
+
+<b>Managing Roles</b>
+---
+
+Roles are already pre-defined in the system (as part of the developer’s design) and there are already actions related to the role. To view these roles, click on ![alt text][mainmenu] Main Menu > Administration > User Groups.
+<br />
+
+![alt text][usergroups]
+<br />
+<br />
+
+<b>Managing Security Groups & Customizing Permissions</b>
+---
+
+Security groups allow the user to customize permissions for a role. If the administrator is managing a huge organization, this grouping is a time-saver for users having the same roles but different access permissions. These are the two ways to create security groups:
+<br />
+
+1. <b>Through User Groups</b>
+
+	a.) From "User Groups", select and double click the domain that you want to create security groups for, then click <b>Manage Security Group</b>.
+	<br />
+
+	![alt text][securitygroup]
+	<br />
+	<br />
+
+	b.) Click <b>Add</b>, enter the name of security group when prompted, and click <b>OK</b>. Then on the permissions, check or uncheck which are applicable. Click on <b>OK</b> to save this security group.
+	<br />
+
+	![alt text][addsec]
+	<br />
+	<br />
+
+2. <b>Through opening the record of the user</b>
+
+	a.) Go to Home > Administration > Manage Users > Select the user account> Edit> Roles and Permissions> Edit> Select Security Group> Click ![alt text][threedots] to open permissions then check or uncheck which are applicable> Click OK.
+	<br />
+
+	![alt text][permissions]
+	<br />
+	<br />
+
+
+
 
 
 
@@ -232,3 +457,29 @@ The SystemAdministrator’s account is the only account recognized by the system
 [barangay3]: ./images/3-g.png
 [barangay4]: ./images/3-h.png
 [client]: ./images/3-i.png
+[newterminal]: ./images/3-j.png
+[registered]: ./images/3-k.png
+[password]: ./images/3-l.png
+[confirmpass]: ./images/3-m.png
+[generate]: ./images/3-n.png
+[terminalkeys]: ./images/3-o.png
+[terminalreg]: ./images/3-p.png
+[administration]: ./images/3-q.png
+[manageusers]: ./images/3-r.png
+[managenew]: ./images/3-s.png
+[newuser]: ./images/3-t.png
+[edituser]: ./images/3-u.png
+[addrole]: ./images/3-v.png
+[adduser]: ./images/3-w.png
+[lookup]: ./images/lookup.png
+[usergroup]: ./images/3-x.png
+[remove]: ./images/3-y.png
+[close]: ./images/close.png
+[close2]: ./images/3-z.png
+[resetpass]: ./images/3-za.png
+[mainmenu]: ./images/mainmenu.png
+[usergroups]: ./images/usergroups.png
+[securitygroup]: ./images/3-zb.png
+[addsec]: ./images/3-zc.png
+[threedots]: ./images/threedots.png
+[permissions]: ./images/3-zd.png
