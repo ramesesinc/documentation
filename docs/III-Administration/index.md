@@ -15,8 +15,10 @@ of a system would result in a high degree of integrity and makes a system secure
 dependable. ETRACS implements a strong security architecture that strictly defines the
 boundaries between the LGU, organizations, functions, terminals and users.
 
+
 Administration is the process of defining access control on system resources which adheres
 to a defined security structure. It is generally composed of two parts, namely:
+
 
 - <b>Authentication</b> - is the procedure of identifying the validity and authenticity of
 anyone that accesses the system. This is currently implemented using the standard
@@ -25,6 +27,7 @@ of authentication could easily be integrated.
 - <b>Authorization</b> - is the process of giving anyone permission to access resources and to
 execute system functions. It is implemented using a Role-Base model. Built-in roles
 such as COLLECTOR are already created with the corresponding permissions defined.
+
 
 ETRACS Administration is implemented using the following, namely: Roles, Users,
 Organization, User Groups, Terminals and Queue System.
@@ -98,6 +101,7 @@ specified, the root organization will be used.
 During installation the type of LGU was specified. Different LGU types have different ways of
 managing.
 
+<br />
 <br />
 
 - ### <b>Editing LGU information</b>
@@ -541,8 +545,6 @@ Security groups allow the user to customize permissions for a role. If the admin
 
 1. <b>Through User Groups</b>
 
-	<br />
-
 	a.) From "User Groups", select and double click the domain that you want to create security groups for, then click <b>Manage Security Group</b>.
 	
 	<br />
@@ -581,6 +583,8 @@ Security groups allow the user to customize permissions for a role. If the admin
 <b>Overview</b>
 ---
 
+<br />
+
 This section describes the basic elements of the ETRACS client to familiarize the user on the user interface.
 
 <br />
@@ -588,6 +592,8 @@ This section describes the basic elements of the ETRACS client to familiarize th
 
 <b>The Registration Screen</b>
 ---
+
+<br />
 
 If you are using the system for the first time, this screen will appear. Click on <b>Register new terminal</b> and ask for an available terminal key from the system administrator.
 
@@ -609,6 +615,8 @@ Once registered, this screen should not appear anymore. If for some reason, this
 <b>The Login Screen</b>
 ---
 
+<br />
+
 The login screen is the first screen you will always see. It will require you to enter your username and password. If you want to log in to another org, you must specify the org code in the client code. Ask the system administrator regarding the organization codes.
 
 <br />
@@ -625,6 +633,8 @@ If login is successful, the main screen should appear.
 
 <b>The Main Screen</b>
 ---
+
+<br />
 
 ![alt text][mainscreen]
 
