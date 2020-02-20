@@ -430,6 +430,268 @@ Security groups allow the user to customize permissions for a role. If the admin
 	<br />
 
 
+<br />
+<br />
+<br />
+
+
+<b>Using ETRACS client</b>
+===
+
+<br />
+
+<b>Overview</b>
+---
+
+This section describes the basic elements of the ETRACS client to familiarize the user on the user interface.
+<br />
+<br />
+
+<b>The Registration Screen</b>
+---
+
+If you are using the system for the first time, this screen will appear. Click on <b>Register new terminal</b> and ask for an available terminal key from the system administrator.
+
+
+![alt text][regnew]
+
+
+Once registered, this screen should not appear anymore. If for some reason, this appears, and you know this is already registered, try <b>Recover existing Terminal</b>. If it cannot be solved, the network settings may have changed. You may need to ask the admin for a new terminal key and register it again.
+<br />
+<br />
+
+<b>The Login Screen</b>
+---
+
+The login screen is the first screen you will always see. It will require you to enter your username and password. If you want to log in to another org, you must specify the org code in the client code. Ask the system administrator regarding the organization codes.
+
+
+![alt text][regnew]
+
+
+If login is successful, the main screen should appear.
+
+<br />
+<br />
+<br />
+
+
+<b>The Main Screen</b>
+---
+
+![alt text][mainscreen]
+
+<br />
+
+1. <b>Toolbar Menu</b> - Displays a dropdown menu.
+2. <b>Quick Launcher</b> – The quick launcher allows you to type in some keywords to launch transactions
+3. <b>Quick Launcher Directory</b> - Displays the available quick launcher codes
+4. <b>Main Menu Button</b> – If the main menu is not visible click this to display the main menu. By default the main menu is hidden.
+5. <b>Barcode Launcher</b> – There are transactions that can be launched by barcodes. You will need a barcode reader for this to get maximum effect.
+6.  ?????
+7. ?????
+8. <b>Main Menu</b> - Displays a hierarchical organization of menus organized as follows:
+
+	a) <b>Master</b> – refers to master files
+	
+	b) <b>Transactions</b> – refers to transactional listing screens
+	
+	c) <b>Reports</b> - refers to printable reports
+	
+	d) <b>Rule Management</b> – refers to rule management screens
+	
+	e) <b>Settings</b> - refers to different types of settings
+9. <b>Window Panel</b> – If several windows are opened, you can switch through the windows by clicking on the title
+10. <b>Logo</b> – This can be changed to a more appropriate logo for the LGU.
+11. <b>Home Panel</b> – This displays selected icons for launching. Usually displayed here are the most common ones.
+12.  <b>Username</b> – indicates the current user using this client
+13.  <b>Client</b> – displays the current organization logged into.
+14.  <b>Terminal</b> – Displays the current terminal id, which is also the terminal key
+15.  <b>Mode</b> – Normally online mode. A feature is planned to allow offline transactions that will not require accessing the server.
+
+<br />
+<br />
+<br />
+
+
+<b>Profile Management</b>
+===
+
+To view the profile click on the System menu in the toolbar menu.
+
+![alt text][profile]
+
+<br />
+
+<b><u>Change Password</u></b>
+
+If password needs to be changed, click on Change Password and update the password. This password will take effect on the next login.
+
+<br />
+
+<b><u>Module Manager</u></b>
+
+<br />
+
+<b><u>Preferences</u></b>
+
+Displays the login information and different information needed designed for support purposes.
+
+<br />
+
+<b><u>Create Offline Profile</u></b>
+
+
+Allows a client to work in offline mode. Not yet functional.
+
+<br />
+
+<b><u>Suspend</u></b>
+
+Allows the user to suspend the screen. If the user takes a break but does not want anyone to access the client, the suspend will freeze the screen and requires the password of the user doing the suspend to resume.
+
+<br />
+
+<b><u>Restart</u></b>
+
+This will logoff the user’s session and reboot the client.
+
+<br />
+
+<b><u>Shutdown</u></b>
+
+This will logoff the existing session and close the client
+
+<br />
+
+<b><u>Logoff</u></b>
+
+This will logoff the existing session and close the client
+
+<br />
+<br />
+
+### <b>Navigation</b>
+
+There are many ways to access the transaction dependent on the developer who made the plugin:
+
+<br />
+
+<b><u>Main Menu</u></b> – To launch main menu actions, navigate through the main menu, select an item and double click the item or press Enter.
+
+<br />
+
+<b><u>Quick Launcher</u></b> – Position mouse on the quick launcher text box then click Enter.
+
+<br />
+
+<b><u>Home Panel</u></b> - Select an icon and double click on the icon.
+
+<br />
+
+<b><u>Toolbar Menu</u></b> – Dropdown menu and select by clicking
+
+<br />
+
+<b><u>Barcode Launcher</u></b> – Click the barcode launcher
+
+<br />
+<br />
+
+### <b>Navigation</b>
+
+<br />
+
+Menu Bar Navigation
+
+Tree Navigation
+
+Quick Launcher Navigation
+
+Opening Form from List
+
+<br />
+<br />
+
+### <b>Input Controls</b>
+
+<br />
+
+<u>List View</u>
+
+<u>Text Field</u>
+
+<u>Date Field</u>
+
+<u>Lookup Field</u>
+
+<u>Radio Field</u>
+
+<u>Check Box Field</u>
+
+<u>DropDown List</u>
+
+<u>Grid or Table</u>
+
+<u>Quick Launcher</u>
+
+<br />
+<br />
+<br />
+
+
+<b>Entity Management</b>
+===
+
+<br />
+
+<b>Overview</b>
+---
+
+<br />
+
+Entity refers to a person, group or organization that conducts business with the local government. In previous versions of ETRACS, this was termed as the payer or taxpayer. Entity can be an owner of properties or business therefore it is widely used throughout the system. Because of this, there is a high probability of duplicate entries that is why careful consideration has to be done to ensure that this will be minimized. There are three types of entities as follows:
+
+<br />
+
+- <b>Individual</b> - refers to an individual person. This is the most common entity in the 	system.
+
+- <b>Juridical</b> - refers to an organization or non-individual entity. This can be classified further as Corporation, Cooperative, Association, Religious, Foundation or Partnership.
+
+- <b>Multiple</b> - refers to a group combination of individual or sometimes juridical entities.
+
+It is represented as a single unit entity. For example in real property there are sometimes multiple owners for a single property. Since there can only be one owner associated with a property, we create a multiple entity composing individual entities and use this instead as the owner of the property.
+
+<br />
+
+### <b>Roles and Permissions</b>
+
+<br />
+
+The following are the roles needed for this module.
+
+
+DOMAIN: ENTITY
+
+
+![alt text][roles]
+
+
+To configure this role further, check or uncheck the necessary permissions or customize it by adding security groups.
+
+<br />
+<br />
+
+<b>Individual Entity</b>
+---
+
+<br />
+
+### <b>Adding an Entity</b>
+
+- To add an individual entity, go to <b>Main Menu</b> and select <b>Master Data</b> > <b>Entities</b> > <b>Individual</b> <i>(See diagram below)</i>. This will display a listing of individual entities. Click <b>New</b> ![alt text][new] to add a new record.
+
+![alt text][individual]
 
 
 
@@ -483,3 +745,9 @@ Security groups allow the user to customize permissions for a role. If the admin
 [addsec]: ./images/3-zc.png
 [threedots]: ./images/threedots.png
 [permissions]: ./images/3-zd.png
+[regnew]: ./images/4-a.png
+[mainscreen]: ./images/4-b.png
+[profile]: ./images/4-c.png
+[roles]: ./images/5-a.png
+
+
