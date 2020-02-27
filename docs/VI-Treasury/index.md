@@ -326,8 +326,249 @@ The Accountable Form Officer (AFO) is the one in charge of the inventory of acco
 
 ![alt text][AFsale4]
 
+<br />
+<br />
+<br />
+
+<b>Transactions</b>
+===
+
+<br />
+
+<b>Manage Accountable Forms</b>
+===
+
+<br />
+
+## <b>Requesting Accountable Forms</b>
 
 
+![alt text][requestAF]
+
+<br />
+<br />
+<br />
+
+## <b>Activating Accountable Forms</b>
+
+![alt text][activateAF]
+
+<br />
+<br />
+<br />
+
+## <b>Assigning Accountable Forms to Subcollector</b>
+
+![alt text][assignAF]
+
+<br />
+<br />
+
+![alt text][assignAF2]
+
+<br />
+<br />
+<br />
+
+## <b>Changing Accountable Form Mode</b>
+
+![alt text][changeAF]
+
+<br />
+<br />
+<br />
+
+<b>Online Collection</b>
+===
+
+## <b>Performing Online Collections</b>
+
+![alt text][online]
+
+<br />
+<br />
+
+![alt text][online2]
+
+<br />
+<br />
+<br />
+
+## <b>Specifying Payments</b>
+
+
+- ### <b>Cash</b>
+
+![alt text][cash]
+
+<br />
+
+- ### <b>Check</b>
+
+![alt text][check]
+
+<br />
+<br />
+<br />
+
+## <b>Printing of Receipt</b>
+
+![alt text][print]
+
+<br />
+<br />
+<br />
+
+## <b>Collection Detail Totals</b>
+
+## <b>Voiding Receipts</b>
+
+![alt text][void]
+
+<br />
+<br />
+<br />
+
+<b>Offline Collection</b>
+===
+
+## <b>Performing Offline Collections</b>
+
+![alt text][offline]
+
+<br />
+<br />
+<br />
+
+<b>Field Collection</b>
+===
+
+## <b>Batch Collection</b>
+
+![alt text][batch]
+
+<br />
+<br />
+
+![alt text][batch2]
+
+<br />
+<br />
+<br />
+
+## <b>Posting of Batch Collection</b>
+
+![alt text][batch3]
+
+<br />
+<br />
+
+![alt text][batch4]
+
+<br />
+<br />
+<br />
+
+<b>Remittance</b>
+===
+
+## <b>Checking Unremitted Collections</b>
+
+![alt text][unremitted]
+
+<br />
+<br />
+<br />
+
+## <b>Performing Remittance</b>
+
+![alt text][remittance]
+
+<br />
+<br />
+
+![alt text][remittance2]
+
+<br />
+<br />
+
+![alt text][remittance3]
+
+<br />
+<br />
+<br />
+
+- ### <b>Printing Reports</b>
+
+	![alt text][reports]
+
+<br />
+<br />
+<br />
+
+## <b>Performing Liquidation</b>
+
+![alt text][liquidation]
+
+<br />
+
+![alt text][liquidation2]
+
+<br />
+
+![alt text][liquidation3]
+
+<br />
+<br />
+<br />
+
+- ### <b>Printing Reports</b>
+
+	![alt text][reports2]
+
+<br />
+<br />
+<br />
+
+<b>Deposit</b>
+===
+
+## <b>Creating Bank Accounts</b>
+
+![alt text][create]
+
+<br />
+
+![alt text][create2]
+
+<br />
+<br />
+<br />
+
+## <b>Performing Deposit</b>
+
+![alt text][deposit]
+
+<br />
+
+![alt text][deposit2]
+
+<br />
+
+![alt text][deposit3]
+
+<br />
+
+![alt text][deposit4]
+
+<br />
+<br />
+<br />
+
+
+- ### <b>Printing Reports</b>
+
+	![alt text][reports3]
 
 
 
@@ -367,3 +608,36 @@ The Accountable Form Officer (AFO) is the one in charge of the inventory of acco
 [AFsale2]: ./images/6-t.png
 [AFsale3]: ./images/6-u.png
 [AFsale4]: ./images/6-v.png
+[requestAF]: ./images/6-w.png
+[activateAF]: ./images/6-x.png
+[assignAF]: ./images/6-y.png
+[assignAF2]: ./images/6-z.png
+[changeAF]: ./images/6-z1.png
+[online]: ./images/6-z2.png
+[online2]: ./images/6-z3.png
+[cash]: ./images/6-z4.png
+[check]: ./images/6-z5.png
+[print]: ./images/6-z6.png
+[void]: ./images/6-z7.png
+[offline]: ./images/6-z8.png
+[batch]: ./images/6-z9.png
+[batch2]: ./images/6-z10.png
+[batch3]: ./images/6-z11.png
+[batch4]: ./images/6-z12.png
+[unremitted]: ./images/6-z13.png
+[remittance]: ./images/6-z14.png
+[remittance2]: ./images/6-z15.png
+[remittance3]: ./images/6-z16.png
+[liquidation3]: ./images/6-z20.png
+[liquidation]: ./images/6-z18.png
+[liquidation2]: ./images/6-z19.png
+[liquidation3]: ./images/6-z20.png
+[reports2]: ./images/6-z21.png
+[create]: ./images/6-z22.png
+[create2]: ./images/6-z23.png
+[deposit]: ./images/6-z24.png
+[deposit2]: ./images/6-z25.png
+[deposit3]: ./images/6-z26.png
+[deposit4]: ./images/6-z27.png
+[reports3]: ./images/6-z28.png
+[reports]: ./images/6-z29.png
