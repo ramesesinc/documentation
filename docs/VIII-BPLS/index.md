@@ -202,7 +202,7 @@ The system accompanies the important rules. You need to deploy these rules if ne
 <br />
 <br />
 
-## <b>Authorizing Rules</b>
+## <b>Authoring Rules</b>
 
 <br />
 
@@ -214,9 +214,84 @@ The Billing Rules calculates surcharges and penalties. One of the common rules o
 
 <i>Split By Qtr:</i>
 
-<br />
 
 ![alt text][rules]
+
+<br />
+<br />
+
+<i>Interest Computation:</i>
+
+This rule
+
+![alt text][computation]
+
+<br />
+<br />
+<br />
+
+<b>Transactions</b>
+===
+
+<br />
+
+### <b>Application</b>
+
+New <br />
+Renew <br />
+Retire <br />
+Amend <br />
+Late Renewal <br />
+
+<br />
+<br />
+
+### <b>Assessment</b>
+
+Viewing Pending Assessments <br />
+Assess Application <br />
+Approval of Application <br />
+Printing Assessment <br />
+Printing of Bill <br />
+
+<br />
+<br />
+
+### <b>Collection</b>
+
+Collection Settings <br />
+Processing Collection <br />
+
+<br />
+<br />
+
+### <b>Issuance of Permit</b>
+
+Releasing Permit <br />
+Issuance of Permit <br />
+Changing Business Information <br />
+Customizing Permit Report <br />
+
+<br />
+<br />
+
+### <b>Reports</b>
+
+Line of Business Listing <br />
+Business Master List <br />
+List of Employers <br />
+Application Listing <br />
+Business Permit Listing <br />
+Business Comparative Assessment Listing <br />
+Business Comparative Listing <br />
+Line of Business Count Listing <br />
+Top Business Listing <br />
+Summary of Business Permit <br />
+Quarterly Paid Business Listing <br />
+Business Collection Report <br />
+Business Delinquency <br />
+
+
 
 
 
@@ -242,3 +317,4 @@ The Billing Rules calculates surcharges and penalties. One of the common rules o
 [actions1]: ./images/7-f1.png
 [actions2]: ./images/7-f2.png
 [rules]: ./images/7-g.png
+[computation]: ./images/7-h.png
