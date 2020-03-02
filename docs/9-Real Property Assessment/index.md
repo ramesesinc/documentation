@@ -106,7 +106,7 @@ Classification is the process of identifying and classifying properties in accor
 <br />
 <br />
 
-## <b>Exemption Types<b/>
+## <b>Exemption Types</b>
 
 <br />
 
@@ -117,9 +117,9 @@ Exemptions are granted to real properties either under constitutional provisions
 
 <br />
 
-1. To create a new record, enter ET01 on the Quick Launcher box and press <b>ENTER</b> or open the list view and click  New  from the toolbar to open the new page. <br />
-
-![alt text][create2]
+1. To create a new record, enter ET01 on the Quick Launcher box and press <b>ENTER</b> or open the list view and click  New  from the toolbar to open the new page.
+	
+	![alt text][create2]
 
 
 2. Enter the required information:
@@ -132,6 +132,331 @@ Exemptions are granted to real properties either under constitutional provisions
 
 
 3. Click on  Save or press  Ctrl+S  to commit the changes.
+
+<br />
+<br />
+<br />
+
+## <b>Reason for Cancellation of FAAS</b>
+
+<br />
+
+This is the reason for cancelling a FAAS record.  The corresponding FAAS of a property is sometimes cancelled due to some extra-ordinary circumstances such as demolition, destruction or even duplication of entry due from manual processes. Below are common reasons for cancellation.
+
+![alt text][cancellation]
+
+
+1. To create a new record, enter CTF01 on the Quick Launcher box and press <b>ENTER</b> or open the list view and click  New  from the toolbar to open the new page.
+
+	![alt text][create3]
+
+
+2. Enter the required information:
+
+	a. <b>Code</b> – the assigned code
+
+	b. <b>Title</b> – the complete title information
+
+	c. <b>Description</b> – a brief description of the record
+
+3. Click on  Save or press  Ctrl+S  to commit the changes.
+
+<br />
+<br />
+<br />
+
+## <b>Kind of Buildings</b>
+
+<br />
+
+Buildings are structures with foundation, roof, walls and other structural features that are suitable for appraisal and assessment. They are considered immovable provided they are more or less of a permanent structure, substantially adhered to the land, and not mere superimpositions on the land. This includes buildings such as One-Family Dwelling, Two-Family Dwelling, Hotel and etc. 
+
+<br />
+
+<b><i>Important!!!</i></b>
+
+To avoid ambiguity in any printed reports, each kind of building must be encoded separately into the system. 
+
+1. To create a new record, enter KB01 on the Quick Launcher box and press <b>ENTER</b> or open the list view and click  New  from the toolbar to open the new page.
+
+	![alt text][create4]
+
+
+2. Enter the required information:
+
+	a. <b>Code</b> – the assigned code 
+
+	b. <b>Kind of Building</b> – the kind of building name
+
+3. Click on  Save or press  Ctrl+S  to commit the changes.
+
+<br />
+<br />
+<br />
+
+## <b>Materials</b>
+
+<br />
+
+The different materials used in the construction of a building such as reinforced concrete and wood. Materials are referenced when defining the “Building Type” of a particular building such as Type IA – Reinforced Concrete and during assessment of building properties.
+
+<br />
+
+1. To create a new record, enter MAT01 on the Quick Launcher box and press <b>ENTER</b> or open the list view and click  New  from the toolbar to open the new page.
+
+	![alt text][create5]
+
+
+2. Enter the required information:
+
+	a. <b>Code</b> – the assigned code 
+
+	b. <b>Material</b> – the material name 
+
+3. Click on  Save or press  Ctrl+S  to commit the changes.
+
+<br />
+<br />
+<br />
+
+## <b>Structures</b>
+
+<br />
+
+The different structures used in the construction of a building such as foundation and partition. Structures are referenced when creating “Building Type” such as Type IA – Reinforced Concrete.
+
+<br />
+
+1. To create a new record, enter ST01 on the Quick Launcher box and press <b>ENTER</b> or open the list view and click  New  from the toolbar to open the new page.
+
+	![alt text][create6]
+
+
+2. Enter the required information:
+
+	a. <b>Code</b> – the assigned code 
+
+	b. <b>Structure</b> – the structure name 
+
+	c. <b>Index No.</b> – the position of the structure in the FAAS printout
+
+
+3. <b>Applicable Materials</b> – lookup the materials applicable for the structure.
+
+	a. In the Code column, enter a few characters of the material to search and press <b>ENTER</b>.
+
+	b. Repeat the process for each material to add.
+
+
+4. Click on  Save or press  Ctrl+S  to commit the changes.
+
+<br />
+<br />
+<br />
+
+## <b>Machines</b>
+
+Machinery is a general classification of property other than real estate. Machinery includes installation and support facilities for processing or manufacturing of products, from raw materials to finished goods. 
+
+<br />
+
+1. To create a new record, enter MACH01 on the Quick Launcher box and press <b>ENTER</b> or open the list view and click  New  from the toolbar to open the new page.
+
+	![alt text][create7]
+
+
+2. Enter the required information:
+
+	a. <b>Code</b> – the assigned code 
+
+	b. <b>Machine</b> – the machine name
+
+
+3. Click on  Save or press  Ctrl+S  to commit the changes.
+
+<br />
+<br />
+<br />
+
+## <b>Plants and Trees</b>
+
+<br />
+
+Trees are woody plants with a single trunk and growing to a considerable height. They also have lateral branches up from the ground. It includes the likes of Coconut and Mango trees. A plant is a kind that is exemplified by trees which includes Banana and Nipa Plant.
+
+<br />
+
+1. To create a new record, enter PT01 on the Quick Launcher box and press <b>ENTER</b> or open the list view and click  New  from the toolbar to open the new page.
+
+	![alt text][create8]
+
+
+2. Enter the required information:
+
+	a. <b>Code</b> – the assigned code 
+
+	b. <b>Plant/Tree</b> – the plant or tree name
+
+
+3. Click on  Save or press  Ctrl+S  to commit the changes.
+
+<br />
+<br />
+<br />
+
+## <b>Miscellaneous Items</b>
+
+<br />
+
+Miscellaneous Item is a property that cannot be classified as land, building, machinery or plant and tree.
+
+This includes perimeter fence, covered walk or communication tower.
+
+<br />
+
+1. To create a new record, enter MISC01 on the Quick Launcher box and press <b>ENTER</b> or open the list view and click  New  from the toolbar to open the new page.
+
+	![alt text][create9]
+
+   
+2. Enter the required information:
+
+	a. <b>Code</b> – the assigned code 
+
+	b. <b>Miscellaneous Item</b> – the miscellaneous item name
+
+
+3. Click on  Save or press  Ctrl+S  to commit the changes.
+
+<br />
+<br />
+<br />
+
+## <b>Parameters</b>
+
+<br />
+
+Parameters are user-defined data that can be used by the application either to collect dynamic information or directly used in a computation. An example of parameters is distance in km, height or width. 
+
+<br />
+
+1. To create a new record, enter RPAR01 on the Quick Launcher box and press <b>ENTER</b> or open the list view and click  New  from the toolbar to open the new page.
+
+	![alt text][create10]
+
+
+2. Enter the required information:
+
+	a. <b>Name</b> – the name of the parameter. Name must start with a letter and be followed by alphanumeric characters. It must not contain any spaces. Use the underscore "_ " character to separate multiple words.
+	
+	b. <b>Caption</b> – the caption displayed in the user interface or reports
+
+	c. <b>Description</b> – a brief information describing the parameter
+
+	d. <b>Data Type</b> – the data represented by this parameter. Valid types are decimal, integer, range_decimal and range_integer. The range_integer and range_decimal values are used when a parameter requires a value that should be within a range of values. If the range_decimal or range_integer types are selected, enter the Minimum and Maximum values. The minimum value must be less than the maximum value.
+
+
+3. Click on  Save or press Ctrl+S to commit the changes.
+
+<br />
+<br />
+<br />
+
+## <b>Requirement Types</b>
+
+<br />
+
+The type of requirements needed or required when processing a transaction such as Realty Tax Clearance, Deed of Absolute Sale, etc.
+
+<br />
+
+1. To create a new record, enter REQ01 on the Quick Launcher box and press <b>ENTER</b> or open the list view and click  New  from the toolbar to open the new page.
+
+	![alt text][create11]
+    
+
+2. Enter the required information:
+
+	a. <b>Requirement Type</b> – the requirement type name
+
+	b. <b>Description</b> – a brief description of the requirement 
+
+	c. <b>Handler</b> – the screen that would handle this requirement. The “default” handler is currently the only supported value.
+
+	d. <b>Sort Order</b> – the priority at which the requirement is displayed
+
+
+3. Click on  Save or press  Ctrl+S  to commit the changes.
+
+<br />
+<br />
+<br />
+
+<b>Settings and Preferences</b>
+===
+
+<br />
+
+Settings and Preferences are critical to the proper operation of the system. It controls different areas including assessment, computation, signatories and workflow processes. The appropriate behavior of the system is dependent on the correct setup of the settings and configuration of the preferences.
+
+<br />
+
+## <b>Signatory Template</b>
+
+<br />
+
+The signatory template identifies the different personnel who have signed the FAAS appraisal sheet. This is used in the capturing of manual FAAS records into the system. The template includes only the four (4) key positions, namely: Appraiser, Taxmapper, Recommender and Approver.
+
+<br />
+<br />
+
+### <b>Adding New Signatories</b>
+
+<br />
+
+1. To add a new signatory, open the Main Menu.
+
+2. Open the Signatory Templates list page by double-clicking the <b>Settings -> Signatory Templates</b> item.
+
+	![alt text][signatory]
+
+
+3. Select the Doc Type item in which to add a new signatory and then click  Open  to display the signatory page.
+
+	![alt text][signatorypage]
+
+
+4. The screen above allows you to manage the signatories.
+
+
+5. Click Add to open the new signatory page.
+
+	![alt text][newsignatory]
+
+	<br />
+
+a. Enter the following information:
+
+- First Name – the first name of the signatory. This is required.
+- Middle Name - the middle name of the signatory.
+- Last Name - the last name of the signatory. This is required.
+- Title - the job title of the signatory. This is required.
+- Department - the department of the signatory. This is required. <br />
+
+b. Or you can click on  Search Personnel  and select existing personnel from the lookup list.
+
+![alt text][search]
+
+6. Click Save.
+
+7. Click Close.
+
+
+
+
+
+
+
 
 
 
@@ -156,3 +481,18 @@ Exemptions are granted to real properties either under constitutional provisions
 [classification]: ./images/9-b.png
 [create]: ./images/9-c.png
 [exemption]: ./images/9-d.png
+[create2]: ./images/9-e.png
+[cancellation]: ./images/9-f.png
+[create3]: ./images/9-g.png
+[create4]: ./images/9-h.png
+[create5]: ./images/9-i.png
+[create6]: ./images/9-j.png
+[create7]: ./images/9-k.png
+[create8]: ./images/9-l.png
+[create9]: ./images/9-m.png
+[create10]: ./images/9-n.png
+[create11]: ./images/9-o.png
+[signatory]: ./images/9-p.png
+[signatorypage]: ./images/9-q.png
+[newsignatory]: ./images/9-r.png
+[search]: ./images/9-s.png
