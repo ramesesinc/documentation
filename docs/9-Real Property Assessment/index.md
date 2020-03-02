@@ -12,16 +12,18 @@ The Real Property Assessment (RPA) Module is one of the core components of ETRAC
 
 <br />
 <br />
+<br />
 
-### <b>Design Objectives</b>
+## <b>Design Objectives</b>
 
 
 The main objective of the RPA module is to provide a fully-functional and automated system for the management of real property data and to streamline the operations of the Assessor’s Office for fast and efficient delivery of basic services to its clients. Sharing data and integration with the other departments within the enterprise is also vital inorder to offer a complete end-to-end assessment and collection solution benefitting both the LGU and the taxpayers.
 
 <br />
 <br />
+<br />
 
-### <b>Key Features</b>
+## <b>Key Features</b>
 
 
 The key features of the RPA module in attaining its objectives are:
@@ -35,12 +37,14 @@ The key features of the RPA module in attaining its objectives are:
 
 <br />
 <br />
+<br />
 
-### <b>Security Requirements</b>
+## <b>Security Requirements</b>
 
 
 As with all ETRACS modules, the Real Property Assessment Module has security requirements that must be satisfied before any transaction can be performed on the system. This ensures that users are given the proper authorizations and permissions. Users of the system are associated with any of the built-in real property assessment roles or specific user-defined roles.
 
+<br />
 <br />
 <br />
 
@@ -52,3 +56,103 @@ The security of ETRACS revolves around Roles and Permissions. <b>Roles</b> norma
 
 The assignment of roles is normally performed by the System Administrator. The main purpose of the task is to provide the user with valid authorization and access into the system. Roles are categorized or classified according to their function in the organization.
 
+
+![alt text][roles]
+
+<br />
+<br />
+<br />
+
+<b>Master Data Management</b>
+===
+
+<br />
+
+The Real Property Assessment module requires a number of master files. These master files must be setup before performing any transaction. It ranges from a simple list of items to settings that require the user to be familiar with the schedules of market values, adjustments, computations and formula definition used during assessment. In order to avoid unnecessary setup issues and problems, the order of which the master files are created must be followed accordingly as described in the succeeding sections.
+
+<br />
+<br />
+<br />
+
+## <b>Property Classifications</b>
+
+<br />
+
+Classification is the process of identifying and classifying properties in accordance with shared qualities or characteristics. The standard property classifications follow the RACIMTS guideline shown in <b>Error! Reference source not found..</b> These are normally loaded into the system by default. However, new classification can still be added if necessary. 
+
+
+![alt text][classification]
+
+<br />
+
+1. To create a new record, enter PC01 on the Quick Launcher box and press <b>ENTER</b> or open the list view and click  New  from the toolbar to open the new page. <br />
+	
+	![alt text][create]
+
+
+2. Enter the required information:
+
+	a. <b>Code</b> – the assigned classification code
+
+	b. <b>Classification</b> – the complete classification name
+
+	c. <b>Is Special?</b> – check if the classification is special such as Hospital, Cultural, etc.
+
+	d. <b>Order No.</b> – represents the order in which it is displayed
+
+3. Click on  Save or press  Ctrl+S  to commit the changes.
+
+<br />
+<br />
+<br />
+
+## <b>Exemption Types<b/>
+
+<br />
+
+Exemptions are granted to real properties either under constitutional provisions, statutory provisions and any other applicable guidelines. The standard applicable exemptions are shown in <b>Error! Reference source not found..</b> These exemptions are automatically loaded by default.
+
+
+![alt text][exemption]
+
+<br />
+
+1. To create a new record, enter ET01 on the Quick Launcher box and press <b>ENTER</b> or open the list view and click  New  from the toolbar to open the new page. <br />
+
+![alt text][create2]
+
+
+2. Enter the required information:
+
+	a. <b>Code</b> – the assigned exemption code
+	
+	b. <b>Name</b> – the complete exemption name
+
+	c. <b>Order No.</b> – represents the order in which it is displayed 
+
+
+3. Click on  Save or press  Ctrl+S  to commit the changes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[roles]: ./images/9-a.png
+[classification]: ./images/9-b.png
+[create]: ./images/9-c.png
+[exemption]: ./images/9-d.png
