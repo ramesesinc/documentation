@@ -10,25 +10,20 @@ The Treasury Revenue (Collection) Module consists of a general collection framew
 This module includes, but not limited to, the following key features:
 <br />
 
-- Request and issuance of Accountable Forms
+- Manage Master Data
 
-- Accountable Form Inventory
+- Requisition and Issuance Slip
 
-- Collection of AF 51, 52,53,54 and 58 and other custom forms
+- Collections ( Online, Offline and Batch Capture )
 
-- Collection of Cash Ticket
+- Remittance
 
-- Online Posting of Remittance
+- Liquidation
 
-- Online Posting of Liquidation
+- Deposit
 
-- Online Posting of Deposit
+- Reports
 
-- Support for NGAS and SRE account mappings
-
-- Multiple modes of operation (online, offline, capture)
-
-- Improve support of Field Collections
 
 <br />
 <br />
