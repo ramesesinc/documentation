@@ -1,37 +1,38 @@
+<b>Roles and Permissions</b>
+===
+
+<br />
+<br />
+<br />
+
 The following roles are required to carry out tasks for this module:
 
 
-- TREASURY.MASTER - Support group to manage master files related to revenue.
+- <b>TREASURY.MASTER</b> - Support group to manage master files related to revenue.
 
 
-- TREASURY.AFO - Role assigned for the accountable form officer.
+- <b>TREASURY.AFO</b> - Role assigned for the accountable form officer.
 
 
-- TREASURY.COLLECTOR - Role assigned for bonded collectors.
+- <b>TREASURY.COLLECTOR</b> - Role assigned for bonded collectors.
 
 
-- TREASURY.LIQUIDATING_OFFICER - Role assigned for liquidating officers. Perform liquidation reports.
+- <b>TREASURY.LIQUIDATING_OFFICER</b> - Role assigned for liquidating officers. Perform liquidation reports.
 
 
-- TREASURY.CASHIER - Role assigned for cashiers. Accepts liquidation reports and perform deposits.
+- <b>TREASURY.CASHIER</b> - Role assigned for cashiers. Accepts liquidation reports and perform deposits.
 
 
-- TREASURY.SHARED - Role assigned for shared functionality but read only.
+- <b>TREASURY.SHARED</b> - Role assigned for shared functionality but read only.
 
 
-- TREASURY.SUBCOLLECTOR - Role assigned to perform collection on behalf of the collector.
+- <b>TREASURY.SUBCOLLECTOR</b> - Role assigned to perform collection on behalf of the collector.
 
 
-- TREASURY.REPORT - Role assigned to view all the reports in treasury.
+- <b>TREASURY.REPORT</b> - Role assigned to view all the reports in treasury.
 
 
-- TREASURY.RULE_AUTHOR - Role assigned to create rules for sharing of collection from National and Local.
+- <b>TREASURY.RULE_AUTHOR</b> - Role assigned to create rules for sharing of collection from National and Local.
 
 
-- TREASURY.ADMIN - Role assigned for special functions except for master file.
-
-
-<br />
-<br />
-<br />
-
+- <b>TREASURY.ADMIN</b> - Role assigned for special functions except for master file.
