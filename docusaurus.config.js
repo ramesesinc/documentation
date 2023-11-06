@@ -99,10 +99,6 @@ const config = {
                 to: '/',
               },
               {
-                label: 'Guide',
-                to: '/category/guide',
-              },
-              {
                 label: 'History',
                 to: '/history',
               },
