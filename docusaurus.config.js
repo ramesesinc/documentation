@@ -91,20 +91,20 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Introduction',
-                to: '/',
-              },
-              {
-                label: 'History',
-                to: '/history',
-              },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Introduction',
+          //       to: '/',
+          //     },
+          //     {
+          //       label: 'History',
+          //       to: '/history',
+          //     },
               
-            ],
-          },
+          //   ],
+          // },
           {
             title: 'Links',
             items: [
