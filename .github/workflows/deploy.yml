@@ -28,4 +28,4 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: ../../build # Update this with the correct build directory of your Docusaurus app
+          publish_dir: build # Update this with the correct build directory of your Docusaurus app
