@@ -1,0 +1,32 @@
+name: Auto Merge to gh-pages and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  merge-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Merge main into gh-pages
+        run: |
+          git checkout gh-pages
+          git merge main --no-edit
+          git push origin gh-pages
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ../../build # Change this to your build output directory
