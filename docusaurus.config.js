@@ -113,8 +113,8 @@ const config = {
                 href: 'http://192.168.1.111:3000',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/ramesesinc',
               },
               {
                 label: 'Twitter',
