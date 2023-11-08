@@ -1,0 +1,20 @@
+name: Auto Merge to gh-pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  merge-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Merge main into gh-pages
+        run: |
+          git checkout gh-pages
+          git merge main --no-edit
+          git push origin gh-pages
