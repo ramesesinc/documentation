@@ -13,4 +13,5 @@ services:
       - "3000:3000"
     volumes:
       - ./docs:/apps/docs
+
     command: ["/bin/sh","-c","npm run start"]
