@@ -82,7 +82,7 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'http://192.168.1.111:3000',
+            href: 'https://etracs.org',
             label: 'Etracs Home Page',
             position: 'right',
           },
@@ -110,27 +110,23 @@ const config = {
             items: [
               {
                 label: 'Etracs Homepage',
-                href: 'http://192.168.1.111:3000',
+                href: 'https://etracs.org',
               },
               {
                 label: 'Facebook',
                 href: 'https://www.facebook.com/ramesesinc',
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/facebook/docusaurus',
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Rameses Systems Inc.`,
       },
