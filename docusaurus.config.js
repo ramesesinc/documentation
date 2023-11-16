@@ -11,15 +11,15 @@ const config = {
   favicon: 'img/entracslogo.ico',
 
   // Set the production url of your site here
-  url: 'https://NiveKing.github.io',
+  url: 'https://ramesesinc.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'NiveKing', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'ramesesinc', // Usually your GitHub org/user name.
+  projectName: 'documentation', // Usually your repo name.
   trailingSlash: false,
   // deploymentBranch: 'gh-pages',
 
@@ -82,7 +82,7 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'http://192.168.1.111:3000',
+            href: 'https://etracs.org',
             label: 'Etracs Home Page',
             position: 'right',
           },
@@ -110,27 +110,23 @@ const config = {
             items: [
               {
                 label: 'Etracs Homepage',
-                href: 'http://192.168.1.111:3000',
+                href: 'https://etracs.org',
               },
               {
                 label: 'Facebook',
                 href: 'https://www.facebook.com/ramesesinc',
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/facebook/docusaurus',
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Rameses Systems Inc.`,
       },
