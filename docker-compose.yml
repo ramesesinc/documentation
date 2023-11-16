@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  docs-server:
+    container_name: docs-server
+    image: ramesesinc/documentation:1.01
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "5"
+        max-size: 10m
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./docs:/apps/docs
+    command: ["/bin/sh","-c","npm run start"]
