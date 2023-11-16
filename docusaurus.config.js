@@ -11,15 +11,15 @@ const config = {
   favicon: 'img/entracslogo.ico',
 
   // Set the production url of your site here
-  url: 'https://NiveKing.github.io',
+  url: 'https://ramesesinc.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/etracsdocs/',
+  baseUrl: '/documentation/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'NiveKing', // Usually your GitHub org/user name.
-  projectName: 'etracsdocs', // Usually your repo name.
+  organizationName: 'ramesesinc', // Usually your GitHub org/user name.
+  projectName: 'documentation', // Usually your repo name.
   trailingSlash: false,
   // deploymentBranch: 'gh-pages',
 
